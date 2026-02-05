@@ -106,7 +106,7 @@ import IPlayGamesApi from '@iplaygames/api-client';
 const { ApiClient, GamesApi, EndpointsApi } = IPlayGamesApi;
 
 // Configure the API client
-const client = new ApiClient('https://game-aggregator-production.up.railway.app');
+const client = new ApiClient('API_URL');
 client.authentications['default'].accessToken = 'YOUR_API_KEY';
 
 // Create API instance
